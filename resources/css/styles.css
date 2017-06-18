@@ -67,13 +67,17 @@ display: flex;
 }
 
 .image-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 300px;
 font-family: Georgia;
-font-size: 40px;
+font-size: 30px;
 font-weight: bold;
 color: white;
-text-align: left;
+text-align: center;
 background-image: url("../images/main.png");
-margin-top: 16px;
+margin-top: 15px;
 }
 
 .image-content span {
@@ -138,12 +142,13 @@ height: 300px;
 .newsbites h3 {
   font-size: 16px;
   font-weight: bold;
-  font-family: Georgia;
   text-align: center;
+  font-family: Georgia;
 }
 
 .newsbites li {
   display: block;
+  text-align: center;
   padding: 11px 20px;
   border-bottom: 1px solid black;
   background-color: WhiteSmoke;
