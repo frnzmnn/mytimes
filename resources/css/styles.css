@@ -90,6 +90,7 @@ margin-top: 16px;
 .stories {
 display: flex;
 justify-content: space-between;
+margin-top: 17px;
 }
 
 .medium {
@@ -122,6 +123,7 @@ width: 300px;
 
 .second {
 width: 300px;
+margin-left: 20px;
 }
 
 #first {
