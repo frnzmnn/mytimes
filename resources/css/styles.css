@@ -37,12 +37,11 @@ color: MediumAquamarine;
 padding-right: 80px;
 }
 
-.header #navigation nav a {
+.header #navigation a {
 color: black;
 }
 
 .content {
-border: 1px solid red;
 display: flex;
 top:90px;
 position:relative;
@@ -60,7 +59,6 @@ align-items: flex-start;
 }
 
 .large {
-border:1px green solid;
 height:100%;
 width: 630px;
 display: flex;
@@ -95,12 +93,10 @@ margin-top: 17px;
 
 .medium {
 width: 300px;
-border:1px solid blue;
 }
 
 .small {
 width: 240px;
-border:1px solid purple;
 }
 
 .headline {
@@ -182,6 +178,11 @@ font-family: Georgia;
 font-size: 16px;
 font-weight: bold;
 color: white;
+}
+
+.footer nav a {
+text-decoration: underline;
+color: black;
 }
 
 .footer nav {
